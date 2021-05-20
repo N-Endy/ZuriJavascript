@@ -19,7 +19,7 @@ function checkYuGiHo(parameter) {
 
     // Checks if it's a number
     if (isNaN(num)) {
-        return `invalid parameter: ${parameter}`;
+        return `invalid parameter: "${parameter}"`;
     } else {
         let result = [];
         for (let i=1; i<=num; i++) {
